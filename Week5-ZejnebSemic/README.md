@@ -5,7 +5,7 @@ To organize my work, I created a folder structure on my computer with separate f
 I used make to compile the program and make run to execute it. This way, I could see the results for all array sizes and check both the sum accuracy and the runtime of each method.
 Here are screenshots I needed to sumbit:
 ![Make output](images/make.png)
-![Make run output] (images/makerun.png)
-![Ls output] (images/lsscreen.png)
+![Make run output](images/makerun.png)
+![Ls output](images/lsscreen.png)
 
 Link for sheet: https://docs.google.com/spreadsheets/d/1nVfxwy5KK0HWy_y5ZpqcGNuypA2VkcBItTwwhE3o2UY/edit?usp=sharing
