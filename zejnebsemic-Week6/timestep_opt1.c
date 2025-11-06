@@ -1,0 +1,21 @@
+#include <math.h>
+#include "timestep.h"
+
+#define REAL_CELL 1
+
+double timestep(int ncells, double g, double sigma, int* restrict celltype,
+                double* restrict H, double* restrict U,
+                double* restrict V, double* restrict dx, double* restrict dy)
+{
+    double mymindt = 1.0e20;
+    for (int ic = 0; ic < ncells; ic++) {
+        if (celltype[ic] == REAL_CELL) {
+            double wavespeed = sqrt(g * H[ic]);
+            double xspeed = (fabs(U[ic]) + wavespeed) / dx[ic];
+            double yspeed = (fabs(V[ic]) + wavespeed) / dy[ic];
+            double dt = sigma / (xspeed + yspeed);
+            if (dt < mymindt) mymindt = dt;
+        }
+    }
+    return mymindt;
+}
