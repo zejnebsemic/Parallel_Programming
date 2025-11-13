@@ -1,0 +1,57 @@
+Results of example_06.c(stencil_opt2.c) :
+student@itcenter-lab128:~/Desktop/week7-ZejnebSemic$ ./example_06
+Running with 4 thread(s)
+Iter 0
+Iter 1000
+Iter 2000
+Iter 3000
+Iter 4000
+Iter 5000
+Iter 6000
+Iter 7000
+Iter 8000
+Iter 9000
+
+1. Timing is init 0.032615 
+2. Flush 143.471498 
+3. Stencil 145.468493 
+4. Total 288.984912
+
+Results of stencil_opt4/c :
+student@itcenter-lab128:~/Desktop/week7-ZejnebSemic$ ./stencil_opt4
+Running with 4 thread(s)
+Iter 0
+Iter 1000
+Iter 2000
+Iter 3000
+Iter 4000
+Iter 5000
+Iter 6000
+Iter 7000
+Iter 8000
+Iter 9000
+
+1. Timing is init 0.037462 
+2. Flush 140.130894 
+3. Stencil 148.402397 
+4. Total 288.622727
+
+Results of stencil_opt6.c:
+student@itcenter-lab128:~/Desktop/week7-ZejnebSemic$ ./stencil_opt6
+Running with 4 thread(s)
+Iter 0
+Iter 1000
+Iter 2000
+Iter 3000
+Iter 4000
+Iter 5000
+Iter 6000
+Iter 7000
+Iter 8000
+Iter 9000
+
+1. Timing is init 0.029213 
+2. Flush 141.677422 
+3. Stencil 149.639034 
+4. Total 292.795756
+ 
