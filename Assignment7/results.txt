@@ -1,0 +1,64 @@
+(base) zejnebsemic@Zejnebs-MacBook-Air Assignment8 % mpirun -n 2 ./PartialSum
+
+Main process initializing array of 10000 elements
+Array initialization complete
+
+Rank 0: processed 5000 elements, partial sum = 12502500.00, compute time = 0.000007 sec
+Rank 1: processed 5000 elements, partial sum = 37502500.00, compute time = 0.000007 sec
+
+========================================
+Timing Results:
+  Scatter operation: 0.001110 seconds
+  Reduce operation:  0.000038 seconds
+
+Final Results:
+  Total sum across all processes: 50005000.00
+========================================
+
+
+
+(base) zejnebsemic@Zejnebs-MacBook-Air Assignment8 % mpirun -n 4 ./PartialSum
+
+Main process initializing array of 10000 elements
+Array initialization complete
+
+Rank 1: processed 2500 elements, partial sum = 9376250.00, compute time = 0.000004 sec
+Rank 2: processed 2500 elements, partial sum = 15626250.00, compute time = 0.000009 sec
+Rank 3: processed 2500 elements, partial sum = 21876250.00, compute time = 0.000004 sec
+Rank 0: processed 2500 elements, partial sum = 3126250.00, compute time = 0.000014 sec
+
+========================================
+Timing Results:
+  Scatter operation: 0.000777 seconds
+  Reduce operation:  0.000023 seconds
+
+Final Results:
+  Total sum across all processes: 50005000.00
+========================================
+
+
+
+
+(base) zejnebsemic@Zejnebs-MacBook-Air Assignment8 % mpirun -n 8 ./PartialSum
+
+Main process initializing array of 10000 elements
+Array initialization complete
+
+Rank 1: processed 1250 elements, partial sum = 2344375.00, compute time = 0.000004 sec
+Rank 2: processed 1250 elements, partial sum = 3906875.00, compute time = 0.000005 sec
+Rank 3: processed 1250 elements, partial sum = 5469375.00, compute time = 0.000007 sec
+Rank 4: processed 1250 elements, partial sum = 7031875.00, compute time = 0.000002 sec
+Rank 5: processed 1250 elements, partial sum = 8594375.00, compute time = 0.000004 sec
+Rank 0: processed 1250 elements, partial sum = 781875.00, compute time = 0.000002 sec
+
+========================================
+Timing Results:
+  Scatter operation: 0.000083 seconds
+  Reduce operation:  0.000012 seconds
+
+Final Results:
+Rank 6: processed 1250 elements, partial sum = 10156875.00, compute time = 0.000004 sec
+Rank 7: processed 1250 elements, partial sum = 11719375.00, compute time = 0.000002 sec
+  Total sum across all processes: 50005000.00
+========================================
+(base) zejnebsemic@Zejnebs-MacBook-Air Assignment8 % 
