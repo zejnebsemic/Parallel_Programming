@@ -1,0 +1,5 @@
+Job started at Čet 18 Dec 2025 15:35:35 CET
+Job ID: 3
+Running on: itcenter-lab128
+Using 1 processors
+slurmstepd-itcenter-lab128: error: *** JOB 3 ON itcenter-lab128 CANCELLED AT 2025-12-18T15:41:01 DUE TO TIME LIMIT ***
