@@ -1,0 +1,44 @@
+=== MPI Parallel Word Count ===
+Input directory: ../D1.7GB
+Processes: 8
+
+Found 2808 files
+Processing...
+
+Processing complete!
+Total files: 2808
+Total words: 197572278
+Unique words: 1945007
+
+Collecting results...
+Sorting results...
+
+=== Top 20 Most Frequent Words ===
+Rank  Word                                     Count
+----------------------------------------------------
+1     the                                   11990055
+2     of                                     6523815
+3     and                                    6436788
+4     to                                     5202751
+5     in                                     3353785
+6     that                                   2455124
+7     he                                     2344694
+8     was                                    2094555
+9     it                                     2050669
+10    his                                    1825026
+11    you                                    1684167
+12    with                                   1647623
+13    for                                    1520937
+14    as                                     1453068
+15    is                                     1443788
+16    had                                    1299654
+17    not                                    1233511
+18    but                                    1141160
+19    her                                    1140588
+20    at                                     1119047
+
+=== Performance Summary ===
+Wall time: 20.14 seconds (0.34 minutes)
+Words processed: 197572278
+Processing rate: 9809732 words/second
+Unique words found: 9631226
